@@ -1,0 +1,66 @@
+#chatka {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    background-color: #98fb98;
+    display:flex;
+    flex-wrap: wrap;
+/*    justify-content: center;*/
+    padding: 10px;
+    margin-left: -10px;
+    margin-top: -10px;
+
+}
+.chatka-item{
+    flex: 1 0 300px;
+    box-sizing: border-box;
+  height: 350px;
+/*    width: 300px;*/
+    margin:10px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.chatka-item .chatka-item-mask{
+    height: 100%;
+    background-color:#ff6f00;
+    opacity: 0;
+    transition: all 2s;
+    padding: 10px;
+    box-sizing: border-box;
+   
+    width:100%;
+    display: flex;
+   
+}
+.chatka-item .chatka-item-mask:hover{
+    opacity: 1;
+    
+    
+}
+
+.chatka-item .chatka-item-mask i {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+   
+}
+#chatka-item-1{
+    background-image: url(../img/product-1.jpg);
+}
+#chatka-item-2{
+    background-image: url(../img/product-2.jpg);
+}
+#chatka-item-3{
+    background-image: url(../img/product-3.jpg);
+}
+#chatka-item-4{
+    background-image: url(../img/product-4.jpg);
+}
+
+    
+    
+    
+    
+    

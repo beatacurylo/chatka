@@ -1,0 +1,15 @@
+/*
+@media (min-width: 410px) {
+  .items .item {
+    max-width: calc(50% - 10px);
+  }
+}
+*/
+
+/*
+@media (min-width: 992px) {
+  .items .item {
+    max-width: calc(20% - 10px);
+  }
+}
+*/
